@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f3f3f3;
+}
+
+.btn {
+    width: 50%;
+    padding: 1rem 0;
+    background-color: rgb(38, 24, 168);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.error-icon, .success-icon {
+    font-size: 1.3rem;
+    position: absolute;
+    top: 2.2rem;
+    right: 1rem;
+    visibility: hidden;
+}
+
+.success-icon {
+    color: #4BB543;
+}
+
+.error-icon {
+  color: #B00020;
+}
+.success {
+    border-color: #4BB543;
+}
+
+.error {
+    border-color: #B00020;
+}
+.errorMessage {
+    display: none;
+    color: #B00020;
+    margin-top: 0.2rem;
+}
+
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0px 0px 6px 4px rgb(167, 156, 156);
+    background: #fff;
+    padding: 2rem 0;
+}
+form h1 {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form .form-control {
+    width: 80%;
+    margin: 1rem auto;
+    position: relative;
+}
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+form input:focus {
+    border-color: rgb(46, 163, 192);
+}
